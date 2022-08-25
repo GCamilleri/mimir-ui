@@ -1,0 +1,16 @@
+{
+  "name": "mimir-ui",
+  "version": "1.0.0",
+  "description": "Electron app for organising audiobooks",
+  "main": "main.js",
+  "repository": "https://github.com/GCamilleri/mimir-ui",
+  "author": "Gianni Camilleri <gianni.camilleri@trademe.co.nz>",
+  "license": "GPL-3.0+",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^20.1.0"
+  }
+}
