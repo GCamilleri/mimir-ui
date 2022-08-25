@@ -3,7 +3,7 @@
 All notable changes to the project are listed here.
 
 For more information visit:
-https://github.com/codesbiome/electron-react-webpack-typescript-2021
+https://github.com/codesbiome/electron-react-webpack-typescript-2022
 
 <br>
 
@@ -17,6 +17,64 @@ https://github.com/codesbiome/electron-react-webpack-typescript-2021
   - `sass` upgraded to `v1.54.0`.
   - `sass-loader` upgraded to `v13.0.2`.
   - `webpack` upgraded to `v5.74.0`.
+
+<br>
+
+### v6.1.0
+
+- 🎉 Electron version upgraded to `v19.0.6`
+- Using `misc/window` for custom window without git submodule.
+- Upgraded outdated deps:
+  - `electron` upgraded to `v19.0.6`
+  - `@electron-forge` deps upgraded to `v6.0.0-beta.64`
+  - `@pmmmwh/react-refresh-webpack-plugin` upgraded to `v0.5.7`
+  - `@types` deps upgraded to latest version
+  - `@typescript-eslint` deps upgraded to `v5.29.0`
+  - `eslint` upgraded to `v8.18.0`
+  - `eslint-plugin-react` upgraded to `v7.30.1`
+  - `fork-ts-checker-webpack-plugin` upgraded to `v7.2.11`
+  - `less` upgraded to `v4.1.3`
+  - `less-loader` upgraded to `v11.0.0`
+  - `react-refresh` upgraded to `v0.14.0`
+  - `sass` upgraded to `v1.53.0`
+  - `sass-loader` upgraded to `v13.0.1`
+  - `ts-loader` upgraded to `v9.3.1`
+  - `typescript` upgraded to `v4.7.4`
+  - `webpack` upgraded to `5.73.0`
+
+<br>
+
+### v6.0.0
+
+- 🙌🏻 New Layout for default application.
+- 🌑 Dark mode & 💡 Light Mode colors.
+- 🎉 Electron version upgraded to `v18.1.0`
+- Using `sass/scss` stylesheets by default for project (previously `less` was used).
+- Using `React Fast Refresh` for hot reloading, removed old `hot-loader`.
+- Titlebar Menus style overrides for improvements with rounded corners.
+- Created a new `Theme.scss` file for adjusting light/dark mode color schemes.
+- Persist theme state in `localStorage` by default.
+- Using `pnpm` instead of `yarn` as package manager for project.
+- Upgraded outdated deps:
+  - `electron` upgraded to `v18.1.0`
+  - `eslint` upgraded to `v8.13.0`
+  - `typescript` upgraded to `v4.6.3`
+  - `webpack` upgraded to `v5.72.0`
+  - `react` deps upgraded to `v18.0.0`
+
+<br>
+
+### v5.5.0
+
+- Upgraded outdated deps:
+  - `electron` upgraded to `v17.2.0`
+  - `eslint` ugpraded to `v8.11.0`,
+  - `css-loader` upgraded to `v6.7.1`
+  - `@typescript-eslint/eslint-plugin` deps upgraded to `v5.16.0`
+  - `eslint-plugin-react` upgraded to `v7.29.4`
+  - `ts-loader` upgraded to `v9.2.8`
+  - `typescript` upgraded to `v4.6.3`
+  - `webpack` upgraded to `v5.70.0`
 
 <br>
 
